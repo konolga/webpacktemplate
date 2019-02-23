@@ -1,0 +1,44 @@
+{
+  "name": "webpacktemplate",
+  "version": "1.0.0",
+  "description": "My webpack template",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/konolga/webpacktemplate.git"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 3 version"
+  ],
+  "author": "Olga Kon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/konolga/webpacktemplate/issues"
+  },
+  "homepage": "https://github.com/konolga/webpacktemplate#readme",
+  "dependencies": {
+    "autoprefixer": "^9.4.8",
+    "path": "^0.12.7",
+    "webpack-dev-server": "^3.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.3.3",
+    "@babel/preset-env": "^7.3.1",
+    "babel-loader": "^8.0.5",
+    "css-loader": "^2.1.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.29.5",
+    "webpack-cli": "^3.2.3"
+  }
+}
